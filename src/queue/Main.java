@@ -16,7 +16,22 @@ public class Main {
         System.out.println("Elementul care va fi sters este: " + mq.pop());
         mq.showQueue();
 
+        MyArrayQueue ma = new MyArrayQueue();
+        ma.push(7);
+        ma.push(8);
+        ma.push(9);
+        ma.push(10);
+        ma.push(11);
+        ma.push(12);
+        ma.push(13);
+        ma.push(14);
+        ma.push(15);
 
+        ma.showStack();
+        System.out.println("Ultimul element din stiva: " + ma.peek());
+        System.out.println("Elementul care va fi sters: " + ma.pop());
+        ma.showStack();
+        System.out.println("Elementul care va fi sters: " + ma.pop());
+        ma.showStack();
     }
-
 }
